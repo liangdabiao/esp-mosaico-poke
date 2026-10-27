@@ -1,0 +1,17 @@
+dependencies:
+  idf: ">=6.2"
+  georgik/raylib: "==6.0.0~2"
+  # Registry CDN 已无 1.5.1（403）：指向本地副本（与 weiqi-quest 同一做法）。
+  espressif/esp-gsp:
+    version: "==1.5.1"
+    override_path: "../../../weiqi-solution/dev/esp-gsp"
+  # Required by the engine's shared Raylib asset API, even without game assets.
+  espressif/esp_mmap_assets: "^2.0.0"
+  esp-mosaico-bsp:
+    version: "*"
+    override_path: "../../../submodule/esp-mosaico-bsp/components/esp-mosaico-bsp"
+  esp_iris:
+    version: "*"
+    override_path: "../../../submodule/esp-mosaico-utils/ESP-Iris/components/esp_iris"
+  # Match the BSP display adapter's supported LVGL headers.
+  lvgl/lvgl: "==9.5.0"

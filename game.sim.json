@@ -1,0 +1,27 @@
+{
+  "schema": "mosaico-game-sim/v1",
+  "sources": [
+    "main/game_module.c",
+    "main/game.c",
+    "main/pk/assets.c",
+    "main/pk/battle.c",
+    "main/pk/battle_escape.c",
+    "main/pk/capture.c",
+    "main/pk/combat.c",
+    "main/pk/crc32.c",
+    "main/pk/encounter.c",
+    "main/pk/evolution.c",
+    "main/pk/exp.c",
+    "main/pk/items.c",
+    "main/pk/nurture.c",
+    "main/pk/party.c",
+    "main/pk/pk_assets_host.c",
+    "main/pk/pk_draw.c",
+    "main/pk/pk_map.c",
+    "main/pk/pk_world.c",
+    "main/pk/pk_store_host.c",
+    "main/pk/pokemon_names.c",
+    "main/pkaudio/pk_sfx_host.c",
+    "main/pkaudio/wq_volume.c"
+  ]
+}

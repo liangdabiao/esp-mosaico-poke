@@ -1,0 +1,13 @@
+# 构建产物（工作区内构建，这里只保留源码）
+build/
+build-host/
+managed_components/
+.codex-runs/
+dependencies.lock
+sdkconfig.old
+sdkconfig
+
+# 测试与工具的二进制
+*.exe
+*.o
+__pycache__/

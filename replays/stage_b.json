@@ -1,0 +1,18 @@
+{
+  "events": [
+    {"frame": 5,  "type": "pointer", "x": 100, "y": 235, "pressed": true},
+    {"frame": 6,  "type": "pointer", "x": 100, "y": 235, "pressed": false},
+    {"frame": 12, "type": "pointer", "x": 100, "y": 235, "pressed": true},
+    {"frame": 13, "type": "pointer", "x": 100, "y": 235, "pressed": false},
+    {"frame": 20,  "type": "pointer", "x": 450, "y": 240, "pressed": true},
+    {"frame": 21,  "type": "pointer", "x": 450, "y": 240, "pressed": false},
+    {"frame": 120, "type": "pointer", "x": 450, "y": 240, "pressed": true},
+    {"frame": 121, "type": "pointer", "x": 450, "y": 240, "pressed": false},
+    {"frame": 220, "type": "pointer", "x": 450, "y": 140, "pressed": true},
+    {"frame": 221, "type": "pointer", "x": 450, "y": 140, "pressed": false},
+    {"frame": 320, "type": "pointer", "x": 450, "y": 140, "pressed": true},
+    {"frame": 321, "type": "pointer", "x": 450, "y": 140, "pressed": false},
+    {"frame": 420, "type": "pointer", "x": 450, "y": 140, "pressed": true},
+    {"frame": 421, "type": "pointer", "x": 450, "y": 140, "pressed": false}
+  ]
+}
